@@ -17,26 +17,23 @@ The first major part of the analysis was to get some more information about the 
 
 The 'Years' column would be used as a filter along with 'Parent category' for the pivot table. The rows had 'Date created conversion' and the columns had 'Outcomes'. The sum values were 'Count of outcomes'. This pivot table was named 'Theatre Outcomes by Launch Date'. Finally, the 'Parent category' was filtered to show data for 'Theatre' only. For easy visualization, an accompanying line chart was created from the pivot table. The 'Theatre_Outcomes_Vs_Launch.png' chart is embedded below.
 
-![Theatre_Outcomes_Vs_Launch](/Users/abdullahbinfaiz/Desktop/Data Analytics Classwork /Crowdfunding Analysis/Theatre_Outcomes_Vs_Launch.png)
+![Theatre_Outcomes_vs_Launch](https://user-images.githubusercontent.com/92544151/148625901-1c8882ae-beac-49a5-8854-2eaf097ebeff.png)
 
 ### Analysis of Outcomes Based on Goals
 
 A new worksheet was created for this section, 'Outcomes Based on Goals'. The following table was created to obtain more detailed information on project goals and the success, failure or cancelled ratio. 
 
-![Outcomes_Vs_Goals_Table](/Users/abdullahbinfaiz/Desktop/Data Analytics Classwork /Crowdfunding Analysis/Outcomes_Vs_Goals_Table.png)
+<img width="993" alt="Outcomes_Vs_Goals_Table" src="https://user-images.githubusercontent.com/92544151/148625919-a10aba8c-1bc7-4aed-8dcf-acf15c8f4bbe.png">
 
 To generate the table efficiently, the COUNTIFS() function was used to populate the number of successful, failed and canceled projects. SUM() was utilized for the 'Total Projects'. Percentages were calculated and rounded to 2 decimal places. Then, a line chart, 'Outcomes_Vs_Goals.png', was created for visualization. 
 
-![Outcomes_Vs_Goals](/Users/abdullahbinfaiz/Desktop/Data Analytics Classwork /Crowdfunding Analysis/Outcomes_Vs_Goals.png)
-
+![Outcomes_Vs_Goals](https://user-images.githubusercontent.com/92544151/148625927-2e857101-6f18-4cb3-b925-6095b77707eb.png)
 
 ### Challenges and Difficulties Encountered
 
 There were no significant difficulties encountered during the project but given that fact that it was my first time working with COUNTIFS(), it took me slightly longer than expected getting the information tabulated in 'Outcomes Based on Goals'. 
 
 When creating the pivot table for 'Theatre Outcomes for Launch Date', it was important to focus on rows. One could encounter some difficulty if they used 'Date created conversion column' for rows in the pivot table, as this would lead Excel to create extra categorization items. 
-
-
 
 ## Results
 
@@ -46,7 +43,7 @@ The results section of this report will be focusing on the following four major 
 
 When looking at the 'Theatre Outcomes by Launch Date' worksheet, it is easy to draw some conclusions. The month of May had the highest number of successful and failed campaigns when compared to the rest of the year. This could be due to the fact that more theatre campaigns are launched in May (166) when compared to other months but given the exaggerated jump in the percentage of successful campaigns, it can be said that May is the best month to launch a campaign. It is also clear that majority of the theatre campaigns were successful, regardless of the month. 61.3% of total theatre campaigns were successful. 
 
-On the other hand, easy easy to see the drop in the number of successful campaigns for December. The total of failed and canceled campaigns (35 + 3) for the month is greater than the number of successful campaigns (37). This makes December the only month with less than 50% success rate. Needless to say, avoid launching campaigns in December.  
+On the other hand, it is easy to see the drop in the number of successful campaigns for December. The total of failed and canceled campaigns (35 + 3) for the month is greater than the number of successful campaigns (37). This makes December the only month with less than a 50% success rate. Needless to say, avoid launching campaigns in December.  
 
 - What can you conclude about the Outcomes based on Goals?
 
