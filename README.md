@@ -60,3 +60,5 @@ It is also important to note that there are other factors involved in the succes
 As mentioned, it would be helpful to have data about who is behind the project and whether it's an indie company or a single individual. Along the same lines, creating a pivot table to see how each one (single individual or a team) impacts the success of the campaigns.
 
 Data about the campaign creators' past record with regards to past campaigns might be helpful too. If someone has had multiple successful campaigns in the past, it's easy to see them have another one. So, a pivot table and accompanying chart representing and comparing this information might be helpful when trying to draw conclusions from the dataset.  
+
+NOTE: This report only covers part of the analysis that was done on the crowdfunding data and the excel file that is part of this repository.
