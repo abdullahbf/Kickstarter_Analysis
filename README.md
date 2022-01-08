@@ -23,7 +23,7 @@ The 'Years' column would be used as a filter along with 'Parent category' for th
 
 A new worksheet was created for this section, 'Outcomes Based on Goals'. The following table was created to obtain more detailed information on project goals and the success, failure or cancelled ratio. 
 
-<img width="993" alt="Outcomes_Vs_Goals_Table" src="https://user-images.githubusercontent.com/92544151/148625919-a10aba8c-1bc7-4aed-8dcf-acf15c8f4bbe.png">
+<img width="993" alt="Outcomes_Vs_Goals_Table" src="https://user-images.githubusercontent.com/92544151/148626218-81c1492a-9312-49bb-aea5-c820e9ef1ce4.png">
 
 To generate the table efficiently, the COUNTIFS() function was used to populate the number of successful, failed and canceled projects. SUM() was utilized for the 'Total Projects'. Percentages were calculated and rounded to 2 decimal places. Then, a line chart, 'Outcomes_Vs_Goals.png', was created for visualization. 
 
@@ -53,10 +53,10 @@ The percentage of cancelled campaigns was zero, so the chart clearly shows the i
 
 Looking at the dataset, the latest information about project comes from the year 2017. It needs to be updated to incorporate the changes over the past two years, especially when considering the global pandemic. The pandemic is bound to have had some definitive impact on the funding for these projects. Someone looking at the data today and trying to gain insight about how to start their own campaign would be amiss not to take the pandemic into account. 
 
-It is also important to note that there are other factors involved in the success of a campaign. How is a campaign proposed or advertised to the people? Is it a single person behind the project or is it a team that has proven track record when venturing in this field. Let's say there are two projects with $15000 funding goal each and getting launched on the same day. Project A is being launched by an indie company that just had a successful play come out last year. Project B, on the other hand is being proposed by a single passionate person. Even though, both of them have the same goals, it is much easier to envision project A being a success rather than project B. 
+It is also important to note that there are other factors involved in the success of a campaign. How is a campaign proposed or advertised to the people? Is it a single person behind the project or is it a team that has a proven track record when venturing in this field? Let's say there are two projects with a $15000 funding goal each and getting launched on the same day. Project A is being launched by an indie company that just had a successful play come out last year. Project B, on the other hand, is being proposed by a single passionate person. Even though both of them have the same goals, it is much easier to envision project A being a success rather than project B. 
 
 - What are some other possible tables and/or graphs that we could create?
 
-As mentioned, it would be helpful to have data about who's behind the project and whether it's an indie company or a single individual. Along the same lines, creating a pivot table to see how each one (single individual or a team) impacts the success of the campaigns.
+As mentioned, it would be helpful to have data about who is behind the project and whether it's an indie company or a single individual. Along the same lines, creating a pivot table to see how each one (single individual or a team) impacts the success of the campaigns.
 
 Data about the campaign creators' past record with regards to past campaigns might be helpful too. If someone has had multiple successful campaigns in the past, it's easy to see them have another one. So, a pivot table and accompanying chart representing and comparing this information might be helpful when trying to draw conclusions from the dataset.  
